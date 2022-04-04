@@ -1,13 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import ReviewSection from '../../components/ReviewSection/ReviewSection'
 
 const Home = () => {
     return (
         <div>
             {/* banner of the site start */}
 
-            <section className='grid grid-cols-1 md:grid-cols-2 p-6'>
+            <section className='grid grid-cols-1 md:grid-cols-2 p-6 h-screen'>
+
+                {/* Banner Text */}
                 <div className='my-auto order-2'>
 
                     <div className='text-left'>
@@ -32,15 +35,9 @@ const Home = () => {
                 </div>
             </section>
             {/* banner of the site end */}
-
-            {/* reviews section start */}
-            <section className='bg-[#FAFAFA] font-bold text-[40px] pt-[120px]'>
-                <div>
-                    <p>What Clients Say</p>
-                </div>
-
-            </section>
+            <ReviewSection />
         </div>
+
     );
 };
 
