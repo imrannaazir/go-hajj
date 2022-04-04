@@ -7,7 +7,7 @@ import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div className='flex justify-around bg-[#FAFAFA] items-center p-[33px] sticky top-0 z-20'>
+        <div className='flex justify-around bg-[#FAFAFA] items-center p-[33px] sticky top-0 z-20 shadow-lg'>
             <div className='text-[24px] font-bold'>
                 <Link to={'/'}>
                     <p>GoHajj</p>
