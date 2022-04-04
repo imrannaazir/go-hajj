@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "username": "Abdur Rahman",
+        "img": "https://images.unsplash.com/photo-1609528904487-b3476d8f8451?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "ratting": 4.5,
+        "review": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+    },
+    {
+        "id": 2,
+        "username": "Dr. Jakir",
+        "img": "https://scontent.fjsr8-1.fna.fbcdn.net/v/t1.6435-1/190967380_337140531107980_8967879704658947819_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=GCy8Gqfa8vQAX89AcMD&_nc_ht=scontent.fjsr8-1.fna&oh=00_AT8uJQcjtpXOK6aGAm7Kgx5SWyL9jI-x_1sxp6VC4d__TA&oe=626F0978",
+        "ratting": 5,
+        "review": "First time arriving in this beautiful country together with wife for umrah. Arrived by GoHajj Airlines A380 and departure with same aircraft. Facilities well kept. staff welcome us with a smile. Easy flow for arriving and departing."
+    },
+    {
+        "id": 3,
+        "username": "Belal Phlips",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Bilal_Philips.jpg/330px-Bilal_Philips.jpg",
+        "ratting": 5,
+        "review": "Go Hajj made my jouney awesome. The stafs was very friendly. And also helpful. I am very much satisfied."
+    },
+    {
+        "id": 4,
+        "username": "Shoriful Islam",
+        "img": "https://images.unsplash.com/photo-1627091908405-30bd51eec537?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "ratting": 4.5,
+        "review": "Alhamdulillah. Thanks al mighty Allhah for everything. Specially because of he made me contact with GoHajj airline. GoHajj made my hajj journey easier "
+    },
+    {
+        "id": 5,
+        "username": "Munjarin Akter",
+        "img": "https://images.unsplash.com/photo-1585728748176-455ac5eed962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "ratting": 4.5,
+        "review": "Exelent Service . May Allah Help all of the people who are with GoHajj."
+    },
+    {
+        "id": 6,
+        "username": "Abdullah",
+        "img": "https://scontent.fjsr8-1.fna.fbcdn.net/v/t1.6435-1/201236818_336728884486626_374247157011595976_n.jpg?stp=cp0_dst-jpg_e15_p240x240_q65&_nc_cat=100&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=F1nqMTvkAIkAX9ZWPRg&_nc_ht=scontent.fjsr8-1.fna&oh=00_AT_krdlWRvhFCxHd1m5gKk3cLh_Vke_f-YzX0NTEonV8mw&oe=626F2081",
+        "ratting": 5,
+        "review": "I have nothing to say about GoHajjj. I cannot thank them anough.Friendly staff and security personnel. Clean and tidy. Ample seating facilities "
+    },
+    {
+        "id": 7,
+        "username": "Moen Ali",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeUYfZZYB75_MceSiBNy5KQ5hdsh_byqR_5y18s2ovzP75qzxBFjV0_VqjNTv83zm3qg&usqp=CAU",
+        "ratting": 5,
+        "review": "Keep helping people as well inshallah Allah will help you. The services  of GoHajj were just undescriable."
+    },
+    {
+        "id": 8,
+        "username": "Omar Malik",
+        "img": "https://media.istockphoto.com/photos/portrait-of-middle-eastern-man-picture-id468900036?b=1&k=20&m=468900036&s=170667a&w=0&h=AtFg_PpVBJODnSkNWDGQwhKifpWyFlpXtI82l0E-NK0=",
+        "ratting": 4.5,
+        "review": "It was an excellent experience. Everything was good. I recommend this agency. "
+    },
+    {
+        "id": 9,
+        "username": "Abu Tahir",
+        "img": "https://images.unsplash.com/photo-1598698230199-f7f08ed4234b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "ratting": 4.5,
+        "review": " Bags didn’t arrive with us. Jeddah staff were probably responsible for this mishap. Didn’t issue a receipt for luggage. Medina staff were very efficient and tracked and delivered bags a day later. However, they still kept on calling us back to ask if we received bags. Staff at check in counter not efficient at all. Didn’t return our passports."
+    }
+]
