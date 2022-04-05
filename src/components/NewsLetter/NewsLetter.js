@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const NewsLetter = () => {
     return (
-        <div className='flex justify-around items-center bg-[#252B42] h-[257px]'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 items-center bg-[#252B42] h-[257px]'>
             <div className=''>
-                <p className=' text-[40px]
+                <p className='text-[30px] lg:text-[40px]
                 font-bold text-white'>Get In Touch</p>
                 <p className='text-gray-400'>Join our Newsletter to receive the latest updates and promotions.</p>
 

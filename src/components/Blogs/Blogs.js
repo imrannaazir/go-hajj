@@ -6,7 +6,7 @@ import Blog from '../Blog/Blog'
 
 
 const Blogs = () => {
-    const [blogs, setBlogs] = useContext(BlogsContext)
+    const [blogs] = useContext(BlogsContext)
 
     return (
         <div className=' bg-[#FAFAFA] pb-20'>

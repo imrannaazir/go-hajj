@@ -15,6 +15,6 @@
         "id": 3,
         "title": "What are the differences between inline and block elements?",
         "img": "https://images.unsplash.com/photo-1612529377282-e6c1d5fe7695?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "blog": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+        "blog": "In HTML, which tags take all the width of its parent and always start in a new line that is called block element. the example of some block element are <div/>, <h1/> to <h6/>, <p/> etc. On the other hand those tags does not start in a new line and its takes only its own necessary width and height that is called inline element.Some examples of inline elements are <span> , <strong>, and <img> tags.  Inline block is the same with inline element with the first term that its does not start with new line but we can set its height and width."
     }
 ]

@@ -20,7 +20,7 @@ const ReviewSection = () => {
                     <p className=' font-medium text-sm mb-[80px] text-[#737373]'>We have collected a few stories for you.</p>
                 </div>
 
-                <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 xl:mx-[100px] lg:mx-[10px] '>
+                <div className=' grid grid-cols-1 mx-20 md:grid-cols-2 lg:grid-cols-3  gap-6 xl:mx-[100px] lg:mx-[10px] '>
                     {
                         threeReviews.map(review => <ClientReview key={review.id} review={review} />)
                     }

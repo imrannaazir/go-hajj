@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <section className='bg-[#FAFAFA] h-screen '>
             <p className='text-4xl py-6'>LOGIN</p>
-            <div className=' bg-white text-left w-[30%] mx-auto px-20 py-20 mt-20 rounded-md shadow-md'>
+            <div className=' bg-white text-left w-[90%] lg:w-[30%] mx-auto px-20 py-20 mt-20 rounded-md shadow-md'>
                 <p>Email</p>
                 <input className='bg-[#FAFAFA] border-2 border-[#23A6F0] rounded-full w-80 h-10' type="email" name="" id="" />
                 <p>Password</p>

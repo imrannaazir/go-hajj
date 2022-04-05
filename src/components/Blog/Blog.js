@@ -4,7 +4,7 @@ const Blog = ({ blog: { img, id, title, blog } }) => {
     console.log(blog);
 
     return (
-        <div className='grid grid-cols-2 w-[50%] mx-auto gap-8 mt-8 '>
+        <div className='grid lg:grid-cols-2 w-[90%] p-6 lg:w-[50%] mx-auto gap-8 mt-8 border-2 rounded-lg'>
 
             <div style={id === 2 ? { order: '2' } : { order: '1' }}  >
                 <img className=' shadow-2xl shadow-[#23a5f0ba] rounded-lg' src={img} alt="" />

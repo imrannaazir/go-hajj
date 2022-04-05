@@ -25,7 +25,7 @@ const Reviews = () => {
             </section>
 
             {/* reviews static */}
-            <section className='mx-auto bg-white w-[600px] shadow-2xl hover:shadow-2xl hover:shadow-[#23a5f0a0] mb-5 rounded-2xl ' >
+            <section className='mx-auto bg-white w-[90%] lg:w-[600px] shadow-2xl hover:shadow-2xl hover:shadow-[#23a5f0a0] mb-5 rounded-2xl ' >
                 <div className='flex items-center justify-center ' >
                     <p className='w-[100px]'>Excellent:</p>
                     <p className='text-2xl text-[#F3CD03] my-4 w-[150px]'>

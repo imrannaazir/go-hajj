@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Bar, BarChart, CartesianGrid, Funnel, FunnelChart, LabelList, Legend, Line, LineChart, RadialBar, RadialBarChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboard = () => {
     const [data, setData] = useState([])
@@ -14,14 +14,14 @@ const Dashboard = () => {
     return (
         <div className='bg-[#FAFAFA]'>
             <p className='text-4xl py-6'>Invest to GoHajj.</p>
-            <p className='mb-20 text-gray-400'>Do not Invest to us blindly.Analyze our data first.</p>
+            <p className='mb-20 text-gray-390'>Do not Invest to us blindly.Analyze our data first.</p>
 
-            <div className='chart grid grid-cols-2 gap-10 mx-20'>
+            <div className='chart grid w-full mx-auto lg:grid-cols-2 gap-10 lg:mx-20'>
 
 
-                <div className=' bg-white mb-5 shadow-lg rounded-md p-12'>
+                <div className=' bg-white mb-5 shadow-lg rounded-md lg:p-12'>
                     <p className='mb-6 text-lg'>Invest per Month:</p>
-                    <LineChart width={400} height={400} data={data}
+                    <LineChart width={390} height={390} data={data}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
@@ -35,7 +35,7 @@ const Dashboard = () => {
 
                 <div className=' bg-white mb-5 rounded-md shadow-lg p-12'>
                     <p className='mb-6 text-lg'>Comparison between investment, sell &revenue.</p>
-                    <BarChart width={400} height={400} data={data}>
+                    <BarChart width={390} height={390} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />

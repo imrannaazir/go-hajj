@@ -10,7 +10,7 @@ const BlogsSection = () => {
         <div>
             <section className='bg-[#FAFAFA] pb-20'>
                 <p className=' font-bold text-[40px] pb-[110px] font-mono'>Latest Blogs</p>
-                <div className='grid grid-cols-3 justify-around'>
+                <div className='grid gap-20 lg:grid-cols-3 justify-around'>
                     {
                         blogs.map(blog => <SingleBlog key={blog.id} blog={blog} />)
                     }
