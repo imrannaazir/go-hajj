@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NewsLetter = () => {
     return (
@@ -12,7 +13,9 @@ const NewsLetter = () => {
 
             <div>
                 <input className='border-2 h-10 bg-[#FAFAFA] border-white pl-6  ' type="email" placeholder='Your Email' name="" id="" />
-                <button className='h-10 px-6 py2 bg-[#23A6F0] rounded-r-full border-white border-2  text-white'>Subscribe</button>
+                <Link to='/login'>
+                    <button className='h-10 px-6 py2 bg-[#23A6F0] rounded-r-full border-white border-2  text-white'>Subscribe</button>
+                </Link>
 
             </div>
 

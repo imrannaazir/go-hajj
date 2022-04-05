@@ -4,6 +4,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import ReviewSection from '../../components/ReviewSection/ReviewSection'
 import BlogsSection from '../BlogsSection/BlogsSection';
 import NewsLetter from '../NewsLetter/NewsLetter';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
                         <br />
                         <p className='text-[#737373]'>GoHajj is warmly welcoming Muslims of Bangladesh and offers the best <br /> hajj and umrah packages for them and their families from the capital Dhaka and all over Bangladesh.</p>
                         <br />
-                        <button className='px-6 py-2 bg-[#23A6F0] hover:bg-white rounded-[50px] text-white hover:text-[#23A6F0] hover:border-[#23A6F0] hover:border-2 font-bold text-[14px]' >Book Now <FontAwesomeIcon icon={faArrowRight} /></button>
+                        <Link to='/login'> <button className='px-6 py-2 bg-[#23A6F0] hover:bg-white rounded-[50px] text-white hover:text-[#23A6F0] hover:border-[#23A6F0] hover:border-2 font-bold text-[14px]' >Book Now <FontAwesomeIcon icon={faArrowRight} /></button></Link>
                     </div>
                 </div>
 

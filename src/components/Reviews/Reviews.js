@@ -1,6 +1,7 @@
 import { faStar, faStarHalfAlt, faStairs } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { ReviewsContext } from '../../App';
 import Review from '../Review/Review';
 
@@ -93,7 +94,7 @@ const Reviews = () => {
                     reviews.map(review => <Review key={review.id} review={review} />)
                 }
             </section>
-            <p className='w-[75%] mx-auto bg-white py-4 text-xl border-2 text-[#23A6F0] font-semibold cursor-pointer rounded-lg'>Write a Review</p>
+            <Link to='/login'> <p className='w-[75%] mx-auto bg-white py-4 text-xl border-2 text-[#23A6F0] font-semibold cursor-pointer rounded-lg'>Write a Review</p></Link>
             <br /><br />
 
         </div >

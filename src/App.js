@@ -6,10 +6,12 @@ import Reviews from './components/Reviews/Reviews'
 import Dashboard from './components/Dashboard/Dashboard'
 import Blogs from './components/Blogs/Blogs'
 import About from './components/About/About'
+import NotFound from './components/NotFound/NotFound'
 import { createContext } from 'react';
 import Footer from './components/Footer/Footer';
 import useReviews from './hooks/useReviews'
 import useBlogs from './hooks/useBlogs';
+import Login from './components/Login/Login';
 /* onek try korlam akta context diya multiple value pass korte but parlam na */
 export const ReviewsContext = createContext('reviews')
 export const BlogsContext = createContext('Blogs')
@@ -33,6 +35,8 @@ function App() {
             <Route path='/dashboard' element={<Dashboard />} />
             <Route path='/blogs' element={<Blogs />} />
             <Route path='about' element={<About />} />
+            <Route path='/*' element={<NotFound />} />
+            <Route path='/login' element={<Login />} />
           </Routes>
           <Footer />
         </ReviewsContext.Provider>
