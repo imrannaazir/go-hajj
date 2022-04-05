@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const ReviewSection = () => {
     const [reviews] = useContext(ReviewsContext)
     const threeReviews = reviews.slice(0, 3)
-    console.log(threeReviews);
+
 
     return (
         <div>

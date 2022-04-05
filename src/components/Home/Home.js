@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import ReviewSection from '../../components/ReviewSection/ReviewSection'
+import BlogsSection from '../BlogsSection/BlogsSection';
 
 const Home = () => {
     return (
@@ -36,6 +37,7 @@ const Home = () => {
             </section>
             {/* banner of the site end */}
             <ReviewSection />
+            <BlogsSection />
         </div>
 
     );

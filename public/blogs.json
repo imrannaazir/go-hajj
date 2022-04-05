@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "What is a context API?",
+        "img": "https://images.unsplash.com/photo-1589965485308-0d564ef92e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "Blog": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+    },
+    {
+        "id": 2,
+        "title": "What is Semantic tag in HTML?",
+        "img": "https://images.unsplash.com/photo-1581555866321-708b05cb9b4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "Blog": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+    },
+    {
+        "id": 3,
+        "title": "What are the differences between inline and block elements?",
+        "img": "https://images.unsplash.com/photo-1612529377282-e6c1d5fe7695?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "Blog": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+    }
+]
