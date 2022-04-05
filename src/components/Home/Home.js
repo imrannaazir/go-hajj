@@ -23,11 +23,11 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='order-1'>
+                <div className='order-1 '>
                     <div className="clock-tower static -z-10">
                         <img src="https://i.pinimg.com/474x/2c/09/6f/2c096f5d9b3b3f9c8cc44e9ab6e8d1cb.jpg" alt="" />
                     </div>
-                    <div className="plane absolute top-[200px] right-[0px] md:right-[900px] w-[150px] md:w-[300px] -z-0">
+                    <div className="plane absolute top-[200px] right-[0px] md:right-[900px] w-[150px] md:w-[300px] -z-0 animate-[ping_2s_ease_infinite]">
                         <img src="https://www.nicepng.com/png/full/274-2740701_free-airplane-transparent-background-plane-png.png" alt="" />
 
                     </div>

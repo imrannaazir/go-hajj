@@ -24,7 +24,7 @@ const Reviews = () => {
             </section>
 
             {/* reviews static */}
-            <section className='mx-auto bg-white w-[600px] shadow-2xl mb-5 rounded-2xl ' >
+            <section className='mx-auto bg-white w-[600px] shadow-2xl hover:shadow-2xl hover:shadow-[#23a5f0a0] mb-5 rounded-2xl ' >
                 <div className='flex items-center justify-center ' >
                     <p className='w-[100px]'>Excellent:</p>
                     <p className='text-2xl text-[#F3CD03] my-4 w-[150px]'>
@@ -83,13 +83,18 @@ const Reviews = () => {
                     </p><p className='mr-2'>0</p>
                     <p className='w-1 h-6 bg-gray-300'></p>
                 </div>
+
             </section >
 
-            <section>
+            <hr className='mb-8' />
+            <section className='w-[75%] mx-auto'>
+                <p className='text-[30px] pt-[20px]  pb-[20px] '>All Stars(9)</p>
                 {
                     reviews.map(review => <Review key={review.id} review={review} />)
                 }
             </section>
+            <p className='w-[75%] mx-auto bg-white py-4 text-xl border-2 text-[#23A6F0] font-semibold cursor-pointer rounded-lg'>Write a Review</p>
+            <br /><br />
 
         </div >
     );

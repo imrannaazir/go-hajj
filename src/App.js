@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard'
 import Blogs from './components/Blogs/Blogs'
 import About from './components/About/About'
 import { createContext, useEffect, useState } from 'react';
+import Footer from './components/Footer/Footer';
 export const ReviewsContext = createContext('reviews')
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='about' element={<About />} />
         </Routes>
+        <Footer />
       </ReviewsContext.Provider>
     </div>
 
