@@ -3,7 +3,7 @@
         "id": 1,
         "title": "What is a context API?",
         "img": "https://images.unsplash.com/photo-1589965485308-0d564ef92e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-        "blog": "Convenient location - only 15 mins from the Mosque. Excellent modern facilities. Nice simple elegant layout with steelwork reflecting date palm trees. Convenient location of cafetarias, toilets and prayer rooms. Friendly staff and security personnel. Clean and tidy. Ample seating facilities"
+        "blog": "In JavaScript REACT when we want to send data from a parent component to a child component we usually use props. But When we talk about a complex situation where we need to pass data through the multi-level component by using props it would be very difficult. To bring the solution to this problem came the 'CONTEXT API'. In this method first, we declare a JavaScript REACT hook named 'useContext' then we put all the child where we need to pass data on the 'CONTEXT' state. Then we pass data by using Provider . After all, we can easily access that passed data from any child where the level doesn't  Matter. "
     },
     {
         "id": 2,
