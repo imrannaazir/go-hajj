@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import ReviewSection from '../../components/ReviewSection/ReviewSection'
 import BlogsSection from '../BlogsSection/BlogsSection';
+import NewsLetter from '../NewsLetter/NewsLetter';
 
 const Home = () => {
     return (
@@ -38,6 +39,7 @@ const Home = () => {
             {/* banner of the site end */}
             <ReviewSection />
             <BlogsSection />
+            <NewsLetter />
         </div>
 
     );
