@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane, faPlaneArrival, faPlaneCircleCheck, faPlaneCircleExclamation, faPlaneCircleXmark, faPlaneDeparture, faPlaneLock, faPlaneSlash, faRightFromBracket, faSolarPanel, faTruckPlane } from '@fortawesome/free-solid-svg-icons'
 import CustomLink from '../CustomLink/CustomLink';
 
 
@@ -10,7 +10,7 @@ const Header = () => {
         <div className='flex justify-around bg-[#FAFAFA] items-center p-[33px] sticky top-0 z-20 shadow-lg'>
             <div className='text-[24px] font-bold'>
                 <Link to={'/'}>
-                    <p>GoHajj</p>
+                    <p>GoHajj <FontAwesomeIcon className='text-[#23A6F0]' icon={faPlaneArrival} /></p>
                 </Link>
             </div>
             <nav className='gap-[21px] flex text-[14px] font-semibold text-[#737373]'>

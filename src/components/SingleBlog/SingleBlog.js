@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SingleBlog = ({ blog: { title, img, blog, id } }) => {
+const SingleBlog = ({ blog: { title, img, id } }) => {
     return (
         <div className=' relative mx-12'>
             <img className=' hover:opacity-100 hover:blur-sm' src={img} alt="" />

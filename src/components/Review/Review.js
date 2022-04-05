@@ -5,7 +5,7 @@ import React from 'react';
 const Review = ({ review: { img, username, ratting, review, time } }) => {
     console.log(review);
     return (
-        <div className=' bg-white mb-4 p-4 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-[#23a5f0a0]'>
+        <div className=' bg-white mb-4 p-4 rounded-lg shadow-lg hover:shadow-2xl hover:shadow-[#23a5f05c]'>
             <div className='flex items-center gap-3 text-left justify-between'>
                 <div className='flex items-center '>
                     <img className='w-[100px] h-[100px] rounded-full' src={img} alt="" />

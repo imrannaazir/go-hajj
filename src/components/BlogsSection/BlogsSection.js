@@ -4,11 +4,11 @@ import SingleBlog from '../SingleBlog/SingleBlog';
 
 
 const BlogsSection = () => {
-    const [blogs, setBlogs] = useContext(BlogsContext)
+    const [blogs] = useContext(BlogsContext)
 
     return (
         <div>
-            <section className='bg-[#FAFAFA]'>
+            <section className='bg-[#FAFAFA] pb-20'>
                 <p className=' font-bold text-[40px] pb-[110px] font-mono'>Latest Blogs</p>
                 <div className='grid grid-cols-3 justify-around'>
                     {
